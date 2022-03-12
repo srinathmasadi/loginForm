@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+background: linear-gradient(
+45deg
+, #2ab2e6, #7d8e3e);}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="nav-link active" href="/">Home</a></li>
+  <li><a href="/register">SignUp</a></li>
+  <li><a href="/login">Login</a></li>
+  {{!-- <li><a href="/secret">Secret</a></li> --}}
+  {{!-- <li><a href="/logout">Logout</a></li> --}}
+</ul>
+
+</body>
+</html>
